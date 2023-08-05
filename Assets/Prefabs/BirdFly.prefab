@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4288645693273602866
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4288645693273602867}
+  - component: {fileID: 4288645693273602864}
+  m_Layer: 0
+  m_Name: SpwanPoint01
+  m_TagString: Untagged
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4288645693273602867
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4288645693273602866}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.02, y: 1.91, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4288645694094762895}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4288645693273602864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4288645693273602866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbf8a54ed1632dc47b44a19605762bba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstacles:
+  - {fileID: 1254184010533212985, guid: 0d7f389f884024d47bc5a95798eace78, type: 3}
+  - {fileID: 1254184010533212985, guid: 0d7f389f884024d47bc5a95798eace78, type: 3}
+  - {fileID: 1254184010533212985, guid: 0d7f389f884024d47bc5a95798eace78, type: 3}
+  - {fileID: 1254184010533212985, guid: 0d7f389f884024d47bc5a95798eace78, type: 3}
+  - {fileID: 4611609627028989474, guid: 02e0997b7e333304e9d7f09b8d05e6ac, type: 3}
+  - {fileID: 1254184010533212985, guid: 0d7f389f884024d47bc5a95798eace78, type: 3}
+  - {fileID: 1254184010533212985, guid: 0d7f389f884024d47bc5a95798eace78, type: 3}
+  - {fileID: 1254184010533212985, guid: 0d7f389f884024d47bc5a95798eace78, type: 3}
+  - {fileID: 1254184010533212985, guid: 0d7f389f884024d47bc5a95798eace78, type: 3}
+  - {fileID: 1254184010533212985, guid: 0d7f389f884024d47bc5a95798eace78, type: 3}
+--- !u!1 &4288645694094762894
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4288645694094762895}
+  - component: {fileID: 3085229036749445141}
+  m_Layer: 0
+  m_Name: BirdFly
+  m_TagString: obs
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4288645694094762895
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4288645694094762894}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4288645693273602867}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3085229036749445141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4288645694094762894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6f8864221dd7964e9dca505164d1b74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lifetime: 2

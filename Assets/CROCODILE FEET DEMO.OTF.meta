@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: ad20c92b6fef99d4492d6cbf22b9a440
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Crocodile Feet DEMO
+  fontNames:
+  - Crocodile Feet DEMO
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 37d5561c9f54a9147a5748ccbcb9de3a, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
